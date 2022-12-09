@@ -142,3 +142,68 @@
 //     console.log(`${number} is not an Armstrong number.`);
 // }
 
+//Program sorting
+
+// var names = [ "Sowjanya", "Anitha", "Priyanka", "Akhila"];
+// returns the sorted array
+// console.log(names.sort());
+// modifies the array in place
+//console.log(names);
+
+//Swapping
+
+// let a=10,b=14,temp
+// temp=a
+// a = b
+// b = temp
+// console.log(`The value of a after swapping: ${a}`);
+// console.log(`The value of b after swapping: ${b}`)
+
+//findSecondLargestElem
+
+// function findSecondLargestElem(arr){
+//     let first = -1 , second = -1;
+
+//     for(let i = 0; i <= arr.length-1; i++){
+//         if(arr[i] > first){
+//             second = first;
+//             first = arr[i];
+//         }
+//         else if( arr[i] > second && arr[i] != first){
+//             second = arr[i];
+//         }
+//     }
+//     console.log(second);
+// }
+// let arr = [12, 35, 1, 10, 34, 1]
+// findSecondLargestElem(arr);
+
+//Generating 5 random integers in range of 1 to 5
+
+// console.log("Generating 5 random integers in range of 1 to 5")
+// for (let i = 0; i < 5; i++) {
+//   var randNum =  Math.floor(Math.random() * 5) + 1;
+//   console.log(randNum)
+// }
+
+// program to find the largest among three numbers
+
+// const num1 = 15;
+// const num2 = 25;
+// const num3 = 68;
+// let largest;
+
+// // check the condition
+// if(num1 >= num2 && num1 >= num3) {
+//     largest = num1;
+// }
+// else if (num2 >= num1 && num2 >= num3) {
+//     largest = num2;
+// }
+// else {
+//     largest = num3;
+// }
+
+// // display the result
+// console.log("The largest number is " + largest);
+
